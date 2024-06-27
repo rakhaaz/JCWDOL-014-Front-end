@@ -1,0 +1,19 @@
+body {
+   
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.gambar {
+    width: 100px;
+    height: 100px;
+}
+.tombol {
+    background-color: rgb(212, 132, 146);
+    border-radius: 5px;
+    border: 0px;
+    color: aliceblue;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}

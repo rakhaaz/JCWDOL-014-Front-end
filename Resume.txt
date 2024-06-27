@@ -1,3 +1,15 @@
 Penggunaan HTML CSS dan JavaScript
 
 Tag tag pada HTML
+
+Setiap bagian pada HTML dikelompokkan dengan tag <div> atau <section>
+
+Pengunaan CSS pada halaman (menghubungkan HTML - CSS)
+- Inline
+- <style> di head
+- File terpisah
+
+PSEUDO ELEMEN (Contoh: :last-child)
+PSEUDO CLASS (Contoh: :hover) 
+
+Modal == Popup
