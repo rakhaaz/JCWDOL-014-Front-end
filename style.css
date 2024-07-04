@@ -1,0 +1,71 @@
+*{
+    font-family: Mulish;
+}
+
+body {
+    margin: 0;  /*agar tidak ada jarak pada halaman web*/
+}
+
+nav {
+    display: flex;
+    flex-direction: row;        
+    justify-content: space-between;
+    padding: 0px 10px;
+    background-color: rgba(128, 0, 128, 0.3);
+    align-items: center;       /*agar Logo, "menu", dan masuk/daftar sejajar secara vertikal*/    
+}
+
+.menu {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+.menu a {
+    text-decoration: none; 
+    color: inherit;
+    margin: 0 16px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    color: red;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.daftar {
+    color: red;
+    background-color: transparent;
+    border-color: red;
+    padding: 13px 45px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 500ms ease-in-out, color 500ms ease-in-out;
+   
+}
+
+.masuk {
+    border-color: transparent;
+    background-color: transparent;
+    padding-right: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.daftar:hover {
+    color: wheat;
+    background-color: red;
+    border-color: wheat;
+    padding: 13px 45px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;        /*merubah cursor*/
+    
+}
