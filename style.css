@@ -11,7 +11,7 @@ nav {
     flex-direction: row;        
     justify-content: space-between;
     padding: 0px 10px;
-    background-color: rgba(128, 0, 128, 0.3);
+    background-color: rgba(238, 202, 238, 0.3);
     align-items: center;       /*agar Logo, "menu", dan masuk/daftar sejajar secara vertikal*/    
 }
 
@@ -49,6 +49,14 @@ nav {
    
 }
 
+.daftar:hover {
+    color: wheat;
+    background-color: red;
+    border-color: rgb(0, 0, 0);
+    cursor: pointer;        /*merubah cursor*/
+    
+}
+
 .masuk {
     border-color: transparent;
     background-color: transparent;
@@ -58,14 +66,65 @@ nav {
     cursor: pointer;
 }
 
-.daftar:hover {
-    color: wheat;
+
+.page-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(238, 202, 238, 0.3);
+}
+.title-heading {
+    font-size: 44px;
+    font-weight: 700;
+    width: 700px;
+    text-align: center;
+}
+
+.kalimat-title {
+    width: 700px;
+    text-align: center;
+}
+.btn-primary {
     background-color: red;
-    border-color: wheat;
-    padding: 13px 45px;
-    border-radius: 50px;
+    color: aliceblue;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    font-weight: 700;
     font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;        /*merubah cursor*/
-    
+    border: solid 2px transparent;
+    padding: 10px 50px;
+    transition: background-color 500ms ease-in-out, color 500ms ease-in-out;
+}
+
+.btn-primary:hover{
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+    border: solid 2px red;
+}
+
+.btn-primary:active {
+    color: burlywood;
+    background-color: blue;
+    border: solid 2px rgb(255, 235, 235);
+}
+
+.blog-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title-container {
+    text-align: center;
+    width: 700px;
+}
+
+.seemore {
+    text-decoration: none;
+    color: inherit;
+}
+.seemore:hover {
+    text-decoration: underline;
+    color: blue;
 }
