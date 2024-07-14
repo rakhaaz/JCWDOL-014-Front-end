@@ -2,6 +2,10 @@
     font-family: Mulish;
 }
 
+html {
+    scroll-behavior: smooth; /*agar saat "Contact* dipencet, ke bagian dengan ID tersebut jadi "smootn" scroll nya/ */
+}
+
 body {
     margin: 0;  /*agar tidak ada jarak pada halaman web*/
 }
