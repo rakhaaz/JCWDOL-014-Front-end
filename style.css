@@ -164,8 +164,11 @@ nav {
 }
 
 #contact {
-    background-color: lightcyan;
+    background-color: transparent;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    border-top: 1px solid gray;
+    padding-top: 25px;
+    margin: 0 115px;
 }
