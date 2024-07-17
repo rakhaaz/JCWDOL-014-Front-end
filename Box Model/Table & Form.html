@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-4.6.2-dist/css/bootstrap.css">
+    <title>Table and Form</title>
+</head>
+<body>
+    <table class="table table-dark table-hover">
+    <thead>
+        <tr>
+            <th>Heading 1</th>
+            <th>Heading 2</th>
+            <th>Heading 3</th>
+        </tr>
+    </thead>
+    <br>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <br>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<br>
+<form>
+    <div class="form-group">
+        <label for="emali">E-mail</label>
+        <input type="text" class="form-control" id="emali">
+    </div>
+</form>
+
+<!-- Input Add On -->
+<label for=”prepend-testing”>Berat Badan</label>
+<div class=”input-group”>
+	<div class="input-group-prepend">
+        <span class="input-group-text">Kilogram</span>
+        <input type=”text” class="form-control" placeholder="Type here" id=”prepend-testing”>
+    </div>
+</div>
+
+<!-- append/di akhir -->
+<label for=”prepend-testing”>Berat Badan</label>
+<div class=”input-group”>
+	<div class="input-group-append">
+        <input type=”text” class="form-control" placeholder="Type here" id=”prepend-testing”>
+        <span class="input-group-text">Kilogram</span>
+    </div>
+</div>
+
+</body>
+</html>
